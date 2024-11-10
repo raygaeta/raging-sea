@@ -11,6 +11,15 @@ import waterFragmentShader from './shaders/water/fragment.glsl'
 const gui = new GUI({ width: 340 })
 const debugObject = {}
 
+// Center the GUI
+const guiContainer = document.querySelector('.lil-gui');
+if (guiContainer) {
+    guiContainer.style.position = 'absolute';
+    guiContainer.style.left = '50%';
+    guiContainer.style.top = '50%';
+    guiContainer.style.transform = 'translate(-50%, -50%)';
+}
+
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
 
