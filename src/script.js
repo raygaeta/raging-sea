@@ -8,7 +8,7 @@ import waterFragmentShader from './shaders/water/fragment.glsl'
  * Base
  */
 // Debug
-const gui = new GUI({ width: 340, closed: true })
+const gui = new GUI({ width: 190, closed: true })
 const debugObject = {}
 
 // Center the GUI horizontally
