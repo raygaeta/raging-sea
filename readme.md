@@ -1,4 +1,4 @@
-# Creative Coding Challenge: Perlin Wave Shader 🌊
+# Animated Perlin Wave Shader Material 🌊
 
 #### This project explores procedural art through a wave-like material crafted with Perlin noise. By focusing on dynamic vertex elevation and custom lighting, this shader-based creation blends art and technology, delivering an immersive visual experience. 
 
