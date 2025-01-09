@@ -1,21 +1,31 @@
 # Creative Coding Challenge: Perlin Wave Shader 🌊
 
+#### This project explores procedural art through a wave-like material crafted with Perlin noise. By focusing on dynamic vertex elevation and custom lighting, this shader-based creation blends art and technology, delivering an immersive visual experience. 
 
-### This challenge explores the beauty of procedural art through a wave-like material crafted with Perlin noise. A wave like custom shader material made with a perlin noise function. Careful attention went into vertex elevation to create a color gradient  according to Y. The effect is accentuated with custom lighting which required me to compute normals. 
+## 🌟 Key Features
 
-## Features
-#### Dynamic Vertex Elevation: Elevates vertices based on Perlin noise to form an undulating wave effect. The elevation drives a stunning gradient tied to the Y-axis, creating vibrant, flowing colors.
-#### Custom Lighting: Achieves a polished and immersive look with hand-computed normals, ensuring realistic lighting and depth.
-Art Meets Performance: Optimized for real-time rendering, perfect for interactive visuals or digital art installations.
+### 🌊 Dynamic Vertex Elevation
+#### Elevates vertices using Perlin noise to create a mesmerizing wave effect. The elevation drives a vibrant color gradient tied to the Y-axis, resulting in flowing, lifelike visuals.
 
-## Tech Stack
-### Built with JavaScript and WebGL, this project is an exploration of shader programming and GPU-driven graphics. It's perfect for anyone looking to level up their creative coding skills.
+### 💡 Custom Lighting
+#### Computes normals manually to ensure realistic lighting and depth, adding a polished and immersive aesthetic to the waves.
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+### 🎨 Art Meets Performance
+#### Optimized for real-time rendering, making it ideal for interactive visuals, digital art installations, or creative experiments.
 
-``` bash
+---
+
+## 🚀 Setup
+
+Download [Node.js](https://nodejs.org/en/download/) to get started. Then, follow these commands:
+
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project directory
+cd <project-folder>
+
 # Install dependencies (only the first time)
 npm install
 
@@ -24,4 +34,3 @@ npm run dev
 
 # Build for production in the dist/ directory
 npm run build
-```
